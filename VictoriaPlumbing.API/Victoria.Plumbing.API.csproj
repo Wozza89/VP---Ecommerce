@@ -8,6 +8,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Victoria.Plumbing.Models\Victoria.Plumbing.Models.csproj" />
+    <ProjectReference Include="..\VictoriaPlumbing-Ecommerce\Victoria.Plumbing.Core.csproj" />
   </ItemGroup>
 
 </Project>

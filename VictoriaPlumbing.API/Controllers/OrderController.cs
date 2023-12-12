@@ -1,7 +1,6 @@
-﻿using Core.Services;
-using Microsoft.AspNetCore.Mvc;
-using Victoria.Plumbing.Domain.Models.Dto;
+﻿using Microsoft.AspNetCore.Mvc;
 using Victoria.Plumbing.Models.Dto;
+using VictoriaPlumbing.Core.Services.Interfaces;
 
 namespace API.Controllers
 {
