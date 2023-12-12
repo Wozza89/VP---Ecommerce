@@ -3,7 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34322.80
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VictoriaPlumbing-Ecommerce", "VictoriaPlumbing-Ecommerce.csproj", "{8648C64D-BB2F-4A05-97DD-82774ADA342D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Victoria.Plumbing.Core", "Victoria.Plumbing.Core.csproj", "{8648C64D-BB2F-4A05-97DD-82774ADA342D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Victoria.Plumbing.API", "..\VictoriaPlumbing.API\Victoria.Plumbing.API.csproj", "{B7BA9E94-3DB6-4D24-A59B-A43F28101B54}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Victoria.Plumbing.Data", "..\Victoria.Plumbing.Data\Victoria.Plumbing.Data.csproj", "{D802887E-B46D-4C41-86C9-54045BF56C1E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Victoria.Plumbing.Models", "..\Victoria.Plumbing.Models\Victoria.Plumbing.Models.csproj", "{9216B5AE-1170-4DA8-BBAB-0A366B8111C8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +21,18 @@ Global
 		{8648C64D-BB2F-4A05-97DD-82774ADA342D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8648C64D-BB2F-4A05-97DD-82774ADA342D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8648C64D-BB2F-4A05-97DD-82774ADA342D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B7BA9E94-3DB6-4D24-A59B-A43F28101B54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7BA9E94-3DB6-4D24-A59B-A43F28101B54}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7BA9E94-3DB6-4D24-A59B-A43F28101B54}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7BA9E94-3DB6-4D24-A59B-A43F28101B54}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D802887E-B46D-4C41-86C9-54045BF56C1E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D802887E-B46D-4C41-86C9-54045BF56C1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D802887E-B46D-4C41-86C9-54045BF56C1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D802887E-B46D-4C41-86C9-54045BF56C1E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9216B5AE-1170-4DA8-BBAB-0A366B8111C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9216B5AE-1170-4DA8-BBAB-0A366B8111C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9216B5AE-1170-4DA8-BBAB-0A366B8111C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9216B5AE-1170-4DA8-BBAB-0A366B8111C8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
