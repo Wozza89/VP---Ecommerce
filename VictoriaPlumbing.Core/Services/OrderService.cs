@@ -19,7 +19,7 @@ namespace Core.Services
         {
             ValidateOrder(orderDto);
 
-            var order = Orders.MapOrderDtoToEntity(orderDto);
+            var order = MapOrderDtoToEntity(orderDto);
 
             _dbContext.Orders.Add(order);
             _dbContext.SaveChangesAsync();
