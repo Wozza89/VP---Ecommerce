@@ -7,4 +7,9 @@
     <RootNamespace>VictoriaPlumbing.Core</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Victoria.Plumbing.Data\Victoria.Plumbing.Data.csproj" />
+    <ProjectReference Include="..\Victoria.Plumbing.Models\Victoria.Plumbing.Models.csproj" />
+  </ItemGroup>
+
 </Project>
