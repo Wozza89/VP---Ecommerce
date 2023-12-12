@@ -47,6 +47,7 @@ The project is organized as follows:
 
 Approximately 2-3 hours were allocated to the development of this solution.
 
-## Note
+## Note/To Do's
 
 Due to time constraints, unit tests have not been incorporated into this version of the project. Additionally, the project remains untested due to limitations on the time allocated for research and implementation.
+The domain models are anemic they were initially created this way with refactoring in mind in the future to change them rich domain models by bringing validation, constructors, and private setters into the domain model.
